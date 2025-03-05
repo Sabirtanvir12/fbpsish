@@ -64,5 +64,5 @@ This tool is intended for **educational purposes only**. Unauthorized use of thi
 
 ## 🌎 Connect With Me  
 🔗 **GitHub:** [Sabirtanvir12](https://github.com/Sabirtanvir12)  
-🔗 [**LinkedIn:** [facebook.com/in/Sabirtanvir12](https://www.facebook.com/sabir465)
+🔗 **Facebook:** [facebook.com/in/Sabirtanvir12](https://www.facebook.com/sabir465)
 💬 **"Stay ethical, stay secure!"**  
