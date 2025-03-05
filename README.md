@@ -1,4 +1,4 @@
-# 🔥 FBPSish - Advanced Facebook Phishing Tool 🔥
+# 🔥 FBPhish - Advanced Facebook Phishing Tool 🔥
 
 ![GitHub Stars](https://img.shields.io/github/stars/Sabirtanvir12/fbpsish?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Sabirtanvir12/fbpsish?style=for-the-badge)
@@ -14,8 +14,7 @@ FBPSish is an **advanced Facebook phishing tool** designed for **educational and
 
 ## 🎯 Features  
 ✅ **Realistic Facebook Phishing Pages** - Mimics original UI for testing.  
-✅ **Live Credential Capture** - Logs credentials in real-time.  
-✅ **Automatic Link Generation** - Shortens phishing URLs for better disguise.  
+✅ **Live Credential Capture** - Logs credentials in real-time.    
 ✅ **Portable & Lightweight** - Works on Linux, Windows, and Android (Termux).  
 ✅ **Easy-to-Use Interface** - Simple command-line based execution.  
 
