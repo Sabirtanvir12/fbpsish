@@ -1,11 +1,11 @@
-# 🔥 FBPhish - Advanced Facebook Phishing Tool 🔥
+# 🔥 Sphisher - Advanced Facebook Phishing Tool 🔥
 
 ![GitHub Stars](https://img.shields.io/github/stars/Sabirtanvir12/fbpsish?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Sabirtanvir12/fbpsish?style=for-the-badge)
 ![GitHub Issues](https://img.shields.io/github/issues/Sabirtanvir12/fbpsish?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/Sabirtanvir12/fbpsish?style=for-the-badge)
 
-## 🚀 About FBPSish  
+## 🚀 About Sphisher  
 FBPSish is an **advanced Facebook phishing tool** designed for **educational and penetration testing purposes**. It allows security researchers and ethical hackers to create **realistic phishing pages** and capture credentials **for security awareness testing**.  
 
 ⚠️ **This tool is for educational purposes only! Unauthorized use is illegal.**
@@ -63,5 +63,5 @@ This tool is intended for **educational purposes only**. Unauthorized use of thi
 
 ## 🌎 Connect With Me  
 🔗 **GitHub:** [Sabirtanvir12](https://github.com/Sabirtanvir12)  
-🔗 **Facebook:** [facebook.com/in/Sabirtanvir12](https://www.facebook.com/sabir465)
+🔗 **Facebook:** [facebook.com](https://www.facebook.com/sabir465)
 💬 **"Stay ethical, stay secure!"**  
