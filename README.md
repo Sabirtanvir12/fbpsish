@@ -25,10 +25,10 @@ FBPSish is an **advanced Facebook phishing tool** designed for **educational and
 
 ### **📌 Install & Setup**  
 ```bash
-# Clone the repository
+
 git clone https://github.com/Sabirtanvir12/fbpsish.git
 
-# Navigate to the directory
+
 cd phish
 ```
 
@@ -48,34 +48,12 @@ bash run.sh
 
 ---
 
-## 📡 Useful Commands  
-```bash
-# Start the phishing attack
-python3 fbpsish.py --start
-
-# Stop the phishing server
-python3 fbpsish.py --stop
-
-# Generate a custom phishing link
-python3 fbpsish.py --generate-link
-
-# View captured credentials
-cat logs/credentials.txt
-
-# Update the tool
-python3 fbpsish.py --update
-
-# Show help menu
-python3 fbpsish.py --help
-```
-
----
 
 ## 📡 Example Usage  
 1️⃣ Select the phishing template.  
 2️⃣ Generate a phishing link.  
-3️⃣ Share the link with the target.  
-4️⃣ Capture login credentials in real-time.  
+3️⃣ Share the link to the victim.  
+4️⃣ Capture login credentials in real-time in localhost.  
 
 ---
 
@@ -86,5 +64,5 @@ This tool is intended for **educational purposes only**. Unauthorized use of thi
 
 ## 🌎 Connect With Me  
 🔗 **GitHub:** [Sabirtanvir12](https://github.com/Sabirtanvir12)  
-🔗 **LinkedIn:** [linkedin.com/in/Sabirtanvir12](https://linkedin.com/)  
+🔗 [**LinkedIn:** [facebook.com/in/Sabirtanvir12](https://www.facebook.com/sabir465)
 💬 **"Stay ethical, stay secure!"**  
