@@ -28,7 +28,7 @@ FBPSish is an **advanced Facebook phishing tool** designed for **educational and
 git clone https://github.com/Sabirtanvir12/fbpsish.git
 
 
-cd phish
+cd sphisher
 ```
 
 ---
