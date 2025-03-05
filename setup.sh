@@ -42,7 +42,7 @@ install_termux() {
 
     # Cloudflared Installation
     if ! command -v cloudflared &> /dev/null; then
-        echo -e "\n${WARNING}➤${RESET} Installing Cloudflared..."
+        echo -e "\n${WARNING}➤${RESET} Installing Cloudflared...(It may takes 2-6 minute)"
         wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm -O $PREFIX/bin/cloudflared
         chmod +x $PREFIX/bin/cloudflared
         echo -e "${SUCCESS}✓ Cloudflared Installed!${RESET}"
@@ -139,4 +139,4 @@ esac
 # Post-install message
 echo -e "\n${SUCCESS}${BOLD}✔ Installation Completed Successfully!${RESET}"
 echo -e "${PRIMARY}${BOLD}➤ Run the phishing tool with:"
-echo -e "${INFO}bash fbphish.sh${RESET}\n"
+echo -e "${INFO}bash run.sh${RESET}\n"
