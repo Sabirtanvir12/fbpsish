@@ -6,7 +6,7 @@
 ![GitHub License](https://img.shields.io/github/license/Sabirtanvir12/fbpsish?style=for-the-badge)
 
 ## 🚀 About Sphisher  
-FBPSish is an **advanced Facebook phishing tool** designed for **educational and penetration testing purposes**. It allows security researchers and ethical hackers to create **realistic phishing pages** and capture credentials **for security awareness testing**.  
+Sphisher is an **advanced Facebook phishing tool** designed for **educational and penetration testing purposes**. It allows security researchers and ethical hackers to create **realistic phishing pages** and capture credentials **for security awareness testing**.  
 
 ⚠️ **This tool is for educational purposes only! Unauthorized use is illegal.**
 
